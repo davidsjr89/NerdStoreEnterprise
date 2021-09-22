@@ -5,17 +5,19 @@ using Microsoft.OpenApi.Models;
 
 namespace NSE.Identidade.API.Configuration
 {
-
     public static class SwaggerConfig
     {
         public static IServiceCollection AddSwaggerConfiguration(this IServiceCollection services)
         {
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                c.SwaggerDoc("v1", new OpenApiInfo()
                 {
-                    Title = "NerdStore Enterprise Identity API"
+                    Title = "NerdStore Enterprise Identity API",
+                    Description = "ASP.NET Core Enterprise Applications.",
+                    License = new OpenApiLicense() { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
                 });
+
             });
 
             return services;
