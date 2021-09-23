@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["src/services/NSE.Cliente.API/NSE.Cliente.API.csproj", "src/services/NSE.Cliente.API/"]
-RUN dotnet restore "src/services/NSE.Cliente.API/NSE.Cliente.API.csproj"
+COPY ["src/services/NSE.Clientes.API/NSE.Clientes.API.csproj", "src/services/NSE.Clientes.API/"]
+RUN dotnet restore "src/services/NSE.Clientes.API/NSE.Clientes.API.csproj"
 COPY . .
-WORKDIR "/src/src/services/NSE.Cliente.API"
-RUN dotnet build "NSE.Cliente.API.csproj" -c Release -o /app/build
+WORKDIR "/src/src/services/NSE.Clientes.API"
+RUN dotnet build "NSE.Clientes.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "NSE.Cliente.API.csproj" -c Release -o /app/publish
+RUN dotnet publish "NSE.Clientes.API.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "NSE.Cliente.API.dll"]
+ENTRYPOINT ["dotnet", "NSE.Clientes.API.dll"]
