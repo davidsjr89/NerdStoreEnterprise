@@ -15,7 +15,6 @@ namespace NSE.Carrinho.API.Configuration
                 {
                     Title = "NerdStore Enterprise Carrinho API",
                     Description = "ASP.NET Core Enterprise Applications.",
-                    
                     License = new OpenApiLicense() {Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT")}
                 });
 

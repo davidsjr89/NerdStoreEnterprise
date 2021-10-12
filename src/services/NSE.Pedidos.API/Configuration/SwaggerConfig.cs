@@ -15,7 +15,6 @@ namespace NSE.Pedidos.API.Configuration
                 {
                     Title = "NerdStore Enterprise Pedidos API",
                     Description = "ASP.NET Core Enterprise Applications.",
-                    
                     License = new OpenApiLicense() {Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT")}
                 });
 

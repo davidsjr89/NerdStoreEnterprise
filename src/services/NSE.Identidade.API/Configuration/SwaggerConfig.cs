@@ -15,6 +15,7 @@ namespace NSE.Identidade.API.Configuration
                 {
                     Title = "NerdStore Enterprise Identity API",
                     Description = "ASP.NET Core Enterprise Applications.",
+                    
                     License = new OpenApiLicense() { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
                 });
 

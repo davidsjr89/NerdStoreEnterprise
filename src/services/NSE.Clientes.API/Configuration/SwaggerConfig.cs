@@ -15,6 +15,7 @@ namespace NSE.Clientes.API.Configuration
                 {
                     Title = "NerdStore Enterprise Clientes API",
                     Description = "ASP.NET Core Enterprise Applications.",
+                    
                     License = new OpenApiLicense() { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
                 });
 
