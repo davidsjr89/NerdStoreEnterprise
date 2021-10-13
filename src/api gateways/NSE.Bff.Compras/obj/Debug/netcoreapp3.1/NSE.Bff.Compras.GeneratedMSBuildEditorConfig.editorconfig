@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NSE.Bff.Compras
+build_property.ProjectDir = C:\Projetos\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\

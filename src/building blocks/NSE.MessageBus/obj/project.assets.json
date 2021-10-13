@@ -1,0 +1,536 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EasyNetQ/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "RabbitMQ.Client": "[6.0.0, 7.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/EasyNetQ.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/EasyNetQ.dll": {}
+        }
+      },
+      "FluentValidation/8.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
+      "MediatR/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "NetDevPack/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "8.6.2",
+          "mediatr": "8.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/NetDevPack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NetDevPack.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Polly/7.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {}
+        }
+      },
+      "RabbitMQ.Client/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        }
+      },
+      "System.ComponentModel.Annotations/4.4.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "NSE.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "FluentValidation": "8.6.2",
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4",
+          "NetDevPack": "1.1.0",
+          "mediatr": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/NSE.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NSE.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EasyNetQ/5.1.1": {
+      "sha512": "rQ3oNN7O/agppf3nR94c1sJObuYAa9scL9hf8N4JZyVnLU807Wd1qLi15FbiS7XK9GxzrFa+Z5n1OXBpoAc3qQ==",
+      "type": "package",
+      "path": "easynetq/5.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "easynetq.5.1.1.nupkg.sha512",
+        "easynetq.nuspec",
+        "lib/net461/EasyNetQ.dll",
+        "lib/net461/EasyNetQ.pdb",
+        "lib/net461/EasyNetQ.xml",
+        "lib/netstandard2.0/EasyNetQ.dll",
+        "lib/netstandard2.0/EasyNetQ.pdb",
+        "lib/netstandard2.0/EasyNetQ.xml"
+      ]
+    },
+    "FluentValidation/8.6.2": {
+      "sha512": "N2vz+f6pAX9AI19hu83U2LJjjc/ETzWGlICVanu3DIG76QhzEu3PR/CQSFBX69PRuBTivrW4jhBzeV7dXIfqyw==",
+      "type": "package",
+      "path": "fluentvalidation/8.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidation.8.6.2.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net45/FluentValidation.dll",
+        "lib/net45/FluentValidation.xml",
+        "lib/netstandard1.1/FluentValidation.dll",
+        "lib/netstandard1.1/FluentValidation.xml",
+        "lib/netstandard1.6/FluentValidation.dll",
+        "lib/netstandard1.6/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
+    "MediatR/8.0.1": {
+      "sha512": "nqtv05FHNNNLmEv4QN9pRtmSLa0bnDPciOjLKpA/k5FZIVS72vPyY3/1lHQ9V/dcQSMA5ZLig62SyRk2cSKNBA==",
+      "type": "package",
+      "path": "mediatr/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "mediatr.8.0.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.4": {
+      "sha512": "k7IJME4US5S5JFOGYaei5TLwutp8IqUvcBWtliKXETGn/JScmCgfej21xq5+ttxi0qZhiyJY06y9dw+cLh3kiQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.3.1.4.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.4": {
+      "sha512": "AceHamXNKDMDwIoZqEoApLp8s3935wSC3VXrPaRWa0wWOaEcYdDlo1nWQ1zLiezoDmpJzV7FqDm53E0Ty/hEMg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/3.1.4": {
+      "sha512": "tLR9n5ltwA56nr1t5M6q5IBfGLXtMS+XgumtqVENmtPQOWUD+m0Kgo1U6GWr06Y875WUN3sOGnmqkvW4an7fYA==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "NetDevPack/1.1.0": {
+      "sha512": "pEeSxtDUKHC1mNwFHikn2WuArzgKYIQ/MLto5xrEKAZGc5MBUuTmFHeRtlwbm2dyU5RvT0Xe/chwRJt0ezN7bg==",
+      "type": "package",
+      "path": "netdevpack/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "IconNuget.png",
+        "lib/netstandard2.0/NetDevPack.dll",
+        "netdevpack.1.1.0.nupkg.sha512",
+        "netdevpack.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Polly/7.2.1": {
+      "sha512": "Od8SnPlpQr+PuAS0YzY3jgtzaDNknlIuAaldN2VEIyTvm/wCg22C5nUkUV1BEG8rIsub5RFMoV/NEQ0tM/+7Uw==",
+      "type": "package",
+      "path": "polly/7.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Polly.dll",
+        "lib/net461/Polly.pdb",
+        "lib/net461/Polly.xml",
+        "lib/net472/Polly.dll",
+        "lib/net472/Polly.pdb",
+        "lib/net472/Polly.xml",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.pdb",
+        "lib/netstandard1.1/Polly.xml",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.pdb",
+        "lib/netstandard2.0/Polly.xml",
+        "polly.7.2.1.nupkg.sha512",
+        "polly.nuspec"
+      ]
+    },
+    "RabbitMQ.Client/6.0.0": {
+      "sha512": "8e7KK44Fai72F452GF8KxUAW5t+ik3rUcalpQaxQNv6DxZyQTgVioWfyYSGYF6qpUqDdy7ZmvD3Zgkm7pKNR9w==",
+      "type": "package",
+      "path": "rabbitmq.client/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net461/RabbitMQ.Client.dll",
+        "lib/net461/RabbitMQ.Client.pdb",
+        "lib/net461/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.pdb",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.0.0.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
+    "System.ComponentModel.Annotations/4.4.1": {
+      "sha512": "ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA==",
+      "type": "package",
+      "path": "system.componentmodel.annotations/4.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net461/System.ComponentModel.Annotations.dll",
+        "lib/netcore50/System.ComponentModel.Annotations.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "lib/portable-net45+win8/_._",
+        "lib/win8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net461/System.ComponentModel.Annotations.dll",
+        "ref/net461/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/System.ComponentModel.Annotations.dll",
+        "ref/netcore50/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/de/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/es/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/fr/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/it/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ja/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ko/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ru/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.xml",
+        "ref/portable-net45+win8/_._",
+        "ref/win8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.annotations.4.4.1.nupkg.sha512",
+        "system.componentmodel.annotations.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "NSE.Core/1.0.0": {
+      "type": "project",
+      "path": "../NSE.Core/NSE.Core.csproj",
+      "msbuildProject": "../NSE.Core/NSE.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "EasyNetQ >= 5.1.1",
+      "NSE.Core >= 1.0.0",
+      "Polly >= 7.2.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\david\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
+      "projectName": "NSE.MessageBus",
+      "projectPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
+      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
+              "projectPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "EasyNetQ": {
+            "target": "Package",
+            "version": "[5.1.1, )"
+          },
+          "Polly": {
+            "target": "Package",
+            "version": "[7.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

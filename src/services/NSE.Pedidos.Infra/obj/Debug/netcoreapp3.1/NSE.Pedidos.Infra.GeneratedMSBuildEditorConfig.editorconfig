@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NSE.Pedidos.Infra
+build_property.ProjectDir = C:\Projetos\NerdStoreEnterprise\src\services\NSE.Pedidos.Infra\

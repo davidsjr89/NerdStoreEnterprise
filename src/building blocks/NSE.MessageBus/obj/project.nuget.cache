@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "zgj3pbkZInD27LIB1T9iQd8zfdf9pTEQSQUs17DWuzNIGMf8XQisIM7WvKqCuQiljiQUzzwwuWnjbTvCIqfLlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\david\\.nuget\\packages\\easynetq\\5.1.1\\easynetq.5.1.1.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.4\\microsoft.extensions.configuration.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.4\\microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\netdevpack\\1.1.0\\netdevpack.1.1.0.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\polly\\7.2.1\\polly.7.2.1.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\rabbitmq.client\\6.0.0\\rabbitmq.client.6.0.0.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

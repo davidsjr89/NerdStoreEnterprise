@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NSE.Pagamentos.API
+build_property.ProjectDir = C:\Projetos\NerdStoreEnterprise\src\services\NSE.Pagamentos.API\

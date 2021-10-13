@@ -1,0 +1,13 @@
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.MessageBus.deps.json
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.MessageBus.dll
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.MessageBus.pdb
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.Core.dll
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.Core.pdb
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.AssemblyReference.cache
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.AssemblyInfoInputs.cache
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.AssemblyInfo.cs
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.CoreCompileInputs.cache
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.CopyComplete
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.dll
+C:\Projetos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.pdb
