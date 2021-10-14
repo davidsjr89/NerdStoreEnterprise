@@ -7,10 +7,14 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["src/api gateways/NSE.Bff.Compras/NSE.Bff.Compras.csproj", "src/api gateways/NSE.Bff.Compras/"]
-RUN dotnet restore "src/api gateways/NSE.Bff.Compras/NSE.Bff.Compras.csproj"
+COPY ["./api gateways/NSE.Bff.Compras/NSE.Bff.Compras.csproj", "api gateways/NSE.Bff.Compras/"]
+COPY ["./building blocks/NSE.Core/NSE.Core.csproj", "building blocks/NSE.WebAPI.Core/"]
+COPY ["./building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj", "building blocks/NSE.WebAPI.Core/"]
+COPY ["./building blocks/NSE.MessageBus/NSE.MessageBus.csproj", "building blocks/NSE.MessageBus/"]
+
+RUN dotnet restore "api gateways/NSE.Bff.Compras/NSE.Bff.Compras.csproj"
 COPY . .
-WORKDIR "/src/src/api gateways/NSE.Bff.Compras"
+WORKDIR "api gateways/NSE.Bff.Compras"
 RUN dotnet build "NSE.Bff.Compras.csproj" -c Release -o /app/build
 
 FROM build AS publish

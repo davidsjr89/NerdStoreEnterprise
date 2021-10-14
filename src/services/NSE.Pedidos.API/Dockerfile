@@ -7,10 +7,14 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["src/services/NSE.Pedidos.API/NSE.Pedidos.API.csproj", "src/services/NSE.Pedidos.API/"]
-RUN dotnet restore "src/services/NSE.Pedidos.API/NSE.Pedidos.API.csproj"
+COPY ["./services/NSE.Pedidos.API/NSE.Pedidos.API.csproj", "services/NSE.Pedidos.API/"]
+COPY ["./building blocks/NSE.Core/NSE.Core.csproj", "building blocks/NSE.WebAPI.Core/"]
+COPY ["./building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj", "building blocks/NSE.WebAPI.Core/"]
+COPY ["./building blocks/NSE.MessageBus/NSE.MessageBus.csproj", "building blocks/NSE.MessageBus/"]
+
+RUN dotnet restore "services/NSE.Pedidos.API/NSE.Pedidos.API.csproj"
 COPY . .
-WORKDIR "/src/src/services/NSE.Pedidos.API"
+WORKDIR "services/NSE.Pedidos.API"
 RUN dotnet build "NSE.Pedidos.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
